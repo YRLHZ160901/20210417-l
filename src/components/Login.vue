@@ -85,7 +85,7 @@ export default {
         if (res.meta.status !== 200) return this.$message.error("登录失败");
         // console.log("登录成功");
         this.$message.success("登录成功");
-        console.log(res);
+        // console.log(res);
         //将登陆成功后的token保存到客户端的sessionStorage 中，因为
         //项目中除了登录之外的其他API接口，必须在登录之后才能访问
         //token只应在当前网站打开期间生效，所以讲token保存在回话级别的sessionStorage中
