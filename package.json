@@ -9,7 +9,11 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+<<<<<<< HEAD
     "echarts": "^5.1.1",
+=======
+    "echarts": "^5.1.2",
+>>>>>>> report
     "element-ui": "^2.4.5",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
